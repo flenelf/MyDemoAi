@@ -4,10 +4,11 @@ version = "0.1.0"
 description = "get weather info"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [ "mcp>=1.4.1",]
-[[project.authors]]
-name = "fluentflen"
-email = "fluentflen@gmail.com"
+dependencies = [
+ "httpx>=0.28.1",
+ "mcp[cli]>=1.4.1",
+]
+ 
 
 [build-system]
 requires = [ "hatchling",]

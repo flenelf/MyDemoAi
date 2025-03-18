@@ -1,3 +1,11 @@
+# 经验
+
+## 本地调试指令 
+npx @modelcontextprotocol/inspector uv run ./src/weather_service/wether.py
+
+注意： 后面的路径要用 除号 作为路径，不能使用windows的反斜杠
+
+
 # weather_service MCP server
 
 get weather info

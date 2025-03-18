@@ -1,0 +1,17 @@
+[project]
+name = "weather-service"
+version = "0.1.0"
+description = "get weather info"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.4.1",]
+[[project.authors]]
+name = "fluentflen"
+email = "fluentflen@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+weather-service = "weather_service:main"
